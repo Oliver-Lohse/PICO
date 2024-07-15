@@ -6,6 +6,14 @@ Das Breadcrumb-Modul ist vollständig in Twig geschrieben und sollte in ein beli
 
 Das Twig-Modul kann in das Template-Verzeichnis kopiert werden und mittels:
 
-  {% include 'modules/breadcrumb.twig' %}
+    {% include 'modules/breadcrumb.twig' %}
 
-eingebunden werden (ich empfehle zusätzlich den Unterordner 'modules').
+eingebunden werden (ich empfehle zusätzlich den Unterordner `modules`). Sofern Sie keinen weiteren Unterordner verwenden, reicht es mit:
+
+    {% include 'breadcrumb.twig' %}
+
+einzuhängen.
+
+## CSS ##
+
+Das Twig-Modul ist für das CSS-Framework Bootstrap angepasst, kann aber auch mit jedem anderen CSS-Framework verwendet werden. Im Falle von Bootstrap, werden kleine einzelne klickbare Buttons in grau oben unter dem Titel eingeblendet.
