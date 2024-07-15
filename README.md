@@ -19,3 +19,8 @@ einzuhängen.
 Das Twig-Modul ist für das CSS-Framework `Bootstrap` angepasst, kann aber auch mit jedem anderen CSS-Framework verwendet werden. Im Falle von Bootstrap, werden kleine einzelne klickbare Buttons in grau oben unter dem Titel eingeblendet.
 
 >Hinweis: Kommentare in Templates sollten im Twig-Style erfolgen, um die interne Struktur der Webseite nicht öffentlich zu machen.
+
+## Webseite ##
+
+- [CMSWorkbench.de](https://cmsworkbench.de)
+- [Oliver-Lohse.de](http://oliver-lohse.de)
