@@ -22,6 +22,6 @@ Das Twig-Modul ist für das CSS-Framework `Bootstrap` angepasst, kann aber auch 
 
 ## Webseite ##
 
-- [CMSWorkbench.de](https://cmsworkbench.de/pico/twig/)
+- [Beitrag auf CMSWorkbench](https://cmsworkbench.de/pico/twig/breadcrumb-navigation-3)
 - [CMSWorkbench.de](https://cmsworkbench.de)
 - [Oliver-Lohse.de](http://oliver-lohse.de)
