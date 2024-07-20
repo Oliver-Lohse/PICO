@@ -1,18 +1,18 @@
 # PICO Breadcrumb Twig Modul #
 
-Das Breadcrumb-Modul für *Pico CMS* ist vollständig in `Twig` geschrieben und sollte in ein beliebiges Template eingebunden werden, in dem am oberen Rand (ideal) eine Brotkrumen-Navigation erscheinen soll. Das Modul wird mit Hilfe der Bootstrap-Classes gestaltet, jedes andere CSS ist natürlich auch leicht nutzbar
+Das Breadcrumb-Modul für *Pico CMS*, ist vollständig in der Templatesprache `Twig` geschrieben und sollte in ein beliebiges Template eingebunden werden, in dem am oberen Rand (ideal) eine Brotkrumen-Navigation erscheinen soll. Das Modul wird mit Hilfe des Bootstrap-CSS gestaltet, jedes andere CSS ist natürlich auch leicht nutzbar und kann einfach eingefügt werden.
 
 ## Installation ##
 
-Das Twig-Modul kann in das Template-Verzeichnis kopiert werden und mittels:
-
-    {% include 'modules/breadcrumb.twig' %}
-
-eingebunden werden (ich empfehle zusätzlich den Unterordner `modules`). Sofern Sie keinen weiteren Unterordner verwenden, reicht es mit:
+Das Twig-Modul kann entweder direkt in das Template-Verzeichnis kopiert werden und mittels:
 
     {% include 'breadcrumb.twig' %}
 
-einzuhängen.
+regulär eingebunden werden. Ich empfehle jedoch innerhalb des Templates solche einzelnen Module in einem eigenen Unterordner `modules` zu sammeln:
+
+    {% include 'modules/breadcrumb.twig' %}
+
+und von dort in die Haupttemplates einzubinden, das schafft etwas mehr Ordnung und Übersicht.
 
 ## CSS ##
 
